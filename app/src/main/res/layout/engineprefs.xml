@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingTop="8dip"
+	android:paddingLeft="8dip"
+    android:paddingRight="8dip"
+    android:background="@color/app_background" >
+
+<SeekBar android:id="@+id/strength"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:layout_marginLeft="10dip" 
+	android:layout_marginRight="10dip"
+	android:max="100">
+</SeekBar>
+<TextView android:id="@+id/strengthValue"
+    android:layout_below="@id/strength" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="10dip"
+	android:textColor="#e5e19e" >
+</TextView>
+<View  android:id="@+id/divider1" 
+    android:layout_below="@id/strengthValue"
+    android:layout_height="2dp"
+    android:layout_width="fill_parent"
+    android:layout_marginTop="9dip"
+    android:layout_marginBottom="6dip"
+    android:background="@color/divider_background" />
+
+<SeekBar android:id="@+id/aggressiveness"
+    android:layout_below="@id/divider1"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:layout_marginLeft="10dip" 
+	android:layout_marginRight="10dip"
+	android:max="100">
+</SeekBar>
+<TextView android:id="@+id/aggressivenessValue"
+    android:layout_below="@id/aggressiveness" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="10dip"
+	android:textColor="#e5e19e" >
+</TextView>
+<View  android:id="@+id/divider2" 
+    android:layout_below="@id/aggressivenessValue"
+    android:layout_height="2dp"
+    android:layout_width="fill_parent"
+    android:layout_marginTop="9dip"
+    android:layout_marginBottom="6dip"
+    android:background="@color/divider_background" />
+
+<CheckBox android:id="@+id/logOn"
+    android:layout_below="@id/divider2" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dip"
+    android:textColor="#e5e19e"
+	android:text="@string/prefTitleLogOn" />
+<View  android:id="@+id/divider3" 
+    android:layout_below="@id/logOn"
+    android:layout_height="2dp"
+    android:layout_width="fill_parent"
+    android:layout_marginTop="9dip"
+    android:layout_marginBottom="6dip"
+    android:background="@color/divider_background" />
+
+<ImageView android:id="@+id/btnOk"
+    android:src="@drawable/okay"
+    android:onClick="myClickHandler" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dip"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"/>
+</RelativeLayout>

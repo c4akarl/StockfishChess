@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="whatsNew">What\'s new</string>
+	<string name="whatsNew_text">
+	    <![CDATA[
+	    *** v1.15 ***
+	    \nSource code released on GitHub.
+	    \nIDE: Conversion of Eclipse on Android Studio.
+	    \n\n*** v1.14 ***
+	    \nStockfish updated to version 6
+	    \nFixed: Interface error on some devices.
+	    \n\n*** v1.13 ***
+	    \nStockfish updated to version 5
+	    \n\n*** v1.12 ***
+	    \nSource code is available from my homepage.
+	    \n\n*** v1.11.1 ***
+	    \nFixed: Interface error on some devices.
+	    \n\n*** v1.11 ***
+	    \nStockfish updated to version 4
+	    \n\n*** v1.10 ***
+	    \nFixed: Interface error with Android version less than 2.3.
+	    \nTranslations:
+	    \nFrench - Eric Gallula
+	    \nSpanish - Sergio Revinelli, Sergio Ballesteros
+	    \nRussian - Ark (hark, arkpc)
+	    ]]>
+ 	</string>    
+</resources>

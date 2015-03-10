@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stockfish Chess</string>
+    <string name="app_name_about">Stockfish Chess - Descripción</string>
+    <string name="app_name_uci">Stockfish Chess - UCI Opciones</string>
+    <string name="preferencesTitle">Preferencias</string>
+    
+    <string name="sendEmail">Enviar email</string>
+    
+    <string name="about">
+    	\"Stockfish Chess\" es una versión portada a Android del famoso motor de ajedrez \"Stockfish 6\".
+    	\n\nCon el fin de jugar contra este motor necesita una interfaz gráfica.
+		\n\nPor favor, descargue la aplicación \"Chess for All\" del \"Google Play Store\". o pinchar sobre el botón \"GUI\".  
+    </string>
+    
+    <string name="menu_title">Información</string>
+    <string name="menu_about">Acerca del programa</string>
+    <string name="menu_about_text">
+     	\"Stockfish 6\" está desarrollado por Tord Romstad, Marco Costalba y Joona Kiiski
+     	\n\nTraducciones:
+		\nFrancés - Éric Gallula
+		\nEspañol - Sergio Revinelli, Sergio Ballesteros
+	    \nRuso - Ark (hark, arkpc)
+		\n\nDiseño gráfico por Lars Streblow
+		\n\n\"Stockfish Chess\" está desarrollado por Karl Schreiner (Licencia: GNU GPLv3)
+	</string>
+	<string name="menu_homepage">Homepage</string>
+    <string name="menu_sourceCode">Source code</string>
+	<string name="menu_contact">Contacto</string>
+	<string name="menu_contact_text">inicio: c4akarl@gmail.com
+	    \nhttp://c4akarl.blogspot.com/</string>
+    
+    <string name="service_name">StockfishEngineService</string>
+    <string name="engineNotFound">No se ha encontrado ningún motor:\n</string>
+    <string name="engineAlreadyRunning">El motor ya se está ejecutando,\nProceso:</string>
+    <string name="prefTitleLogOn">generando registros</string>
+    <string name="prefPlayingStrength">fuerza de juego</string>
+    <string name="prefPlayingAggressiveness">agresividad</string>
+</resources>

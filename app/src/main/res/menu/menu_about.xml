@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+	<item 	android:id="@+id/menu_whatsNew" android:title="@string/whatsNew" />
+	<item 	android:id="@+id/menu_about" android:title="@string/menu_about" />
+	<item 	android:id="@+id/menu_homepage" android:title="@string/menu_homepage" />
+	<item 	android:id="@+id/menu_sourceCode" android:title="Source code" />
+	<item 	android:id="@+id/menu_contact" android:title="@string/menu_contact" />
+</menu>

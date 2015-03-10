@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+ 	package="ccc.chess.engine.stockfish"
+    android:versionCode="20"
+    android:versionName="1.15">
+    <uses-sdk android:minSdkVersion="8"/>
+	<application  android:icon="@drawable/icon" android:label="@string/app_name" android:allowBackup="true">
+	    <activity 	android:name=".StartChessEngine"
+	    			android:label="@string/app_name" >
+			<intent-filter>
+			    <action android:name="android.intent.action.MAIN" />
+			    <category android:name="android.intent.category.LAUNCHER" />
+			    <category android:name="ccc.chess.ENGINE" />
+			</intent-filter>
+	    </activity>
+	    <activity android:name="ChessEnginePreferences" android:label="@string/preferencesTitle" /> 
+	    <service 	android:name="ChessEngineService" android:label="@string/service_name" 
+	    			android:process=":stockfish_chess_engine" android:enabled="true" android:exported="true" >
+	        <intent-filter>
+	            <action android:name="ccc.chess.engine.stockfish.IChessEngineService" />
+	            <category android:name="android.intent.category.DEFAULT" />
+	        </intent-filter>
+	    </service>
+    </application>
+</manifest> 
