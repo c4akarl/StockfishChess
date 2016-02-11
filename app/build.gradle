@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 8
+    compileSdkVersion 23
     buildToolsVersion "21.1.2"
 
     defaultConfig {
         applicationId "ccc.chess.engine.stockfish"
         minSdkVersion 8
-        targetSdkVersion 8
+        targetSdkVersion 23
     }
 
     buildTypes {

@@ -8,7 +8,7 @@
     <string name="sendEmail">Enviar e-mail</string>
     
     <string name="about">
-    	\"Stockfish Chess\" é uma porta Android do famoso \"Stockfish 6\" motor de xadrez.
+    	\"Stockfish Chess\" é uma porta Android do famoso \"Stockfish 7\" motor de xadrez.
     	\n\nVocê precisa de uma interface gráfica para jogar contra este motor. 
 		\n\nFaça o download da aplicação \"Chess for All\" a partir do \"Google Play Store\" ou pressione a tecla \"GUI\" botão.  
     </string>
@@ -16,7 +16,7 @@
     <string name="menu_title">Informações</string>
     <string name="menu_about">Sobre</string>
     <string name="menu_about_text">
-     	\"Stockfish 6\" é desenvolvido por Tord Romstad, Marco Costalba e Joona Kiiski
+     	\"Stockfish 7\" é desenvolvido por Tord Romstad, Marco Costalba e Joona Kiiski
      	\n\nTraduções:
 		\nFrancês - Éric Gallula
 		\nEspanhol - Sergio Revinelli, Sergio Ballesteros
