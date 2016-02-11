@@ -235,7 +235,8 @@ public class StartChessEngine extends Activity implements OnTouchListener
     {	//>133
     	engineServiceConnection = new EngineServiceConnection();
     	engineIntent = new Intent(ENGINE_STOCKFISH);
-    	startService(engineIntent);		// starting once for visibility on device(running services)
+		engineIntent.setPackage("ccc.chess.engine.stockfish");
+		startService(engineIntent);		// starting once for visibility on device(running services)
     	bindService(engineIntent, engineServiceConnection, Context.BIND_AUTO_CREATE);
     }
     private void startEngine() 
