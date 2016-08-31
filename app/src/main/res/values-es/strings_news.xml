@@ -3,7 +3,9 @@
 	<string name="whatsNew">Qué hay de nuevo</string>
 	<string name="whatsNew_text">
 	    <![CDATA[
-	    *** v1.16 ***
+	    *** v1.17 ***
+	    \nCorregido: error de interfaz
+	    \n\n*** v1.16 ***
 	    \nActualización de Stockfish a la versión 7
 	    \n\n*** v1.15 ***
 	    \nEl Código fuente publicado en GitHub.

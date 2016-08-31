@@ -2,7 +2,9 @@
 <resources>
   <string name="whatsNew">Что нового?</string>
   <string name="whatsNew_text"><![CDATA[
-	    *** v1.16 ***
+	    *** v1.17 ***
+	    \nИсправлено: Ошибка интерфейса
+	    \n\n*** v1.16 ***
 	    \nОбновлена ​​до версии Stockfish 7
 	    \n\n*** v1.15 ***
 	    \nИсходные тексты программы написаны на GitHub.

@@ -128,7 +128,12 @@ public class ChessEngineService extends Service
 		if (Build.CPU_ABI.endsWith("x86"))
 			return ASSET_STOCKFISH_CPU_X86;
 		else
-			return ASSET_STOCKFISH_CPU_STANDARD;
+		{
+			if (android.os.Build.VERSION.SDK_INT >= 21)
+				return ASSET_STOCKFISH_CPU_STANDARD;
+			else
+				return ASSET_STOCKFISH_CPU_OLD;
+		}
     }
 	private void writeDefaultEngineToData() 
     {
@@ -332,7 +337,7 @@ public class ChessEngineService extends Service
 	String engineProcess = "";			// the compiled engine process name (file name)
 	int versionCode = 0;				// application versioon number
 	String assetsEngineProcess = "";
-//	final String ASSET_STOCKFISH_CPU_STANDARD = "stockfish-6-ja";
+	final String ASSET_STOCKFISH_CPU_OLD = "stockfish-6-ja";
 	final String ASSET_STOCKFISH_CPU_STANDARD = "stockfish_7_0";
 //	final String ASSET_STOCKFISH_CPU_STANDARD = "stockfish5-armv7";
 //	final String ASSET_STOCKFISH_CPU_X86 = "stockfish_x86";

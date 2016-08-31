@@ -245,10 +245,10 @@ public class StartChessEngine extends Activity implements OnTouchListener
 //    	Log.i(TAG, "startEngine, processAlive: " + processAlive);
     	if (processAlive)
     	{
-//	    	writeLineToProcess("isready");
-//	    	handlerEngineIsreadyCnt = 0;
-//	    	handlerEngineIsready.removeCallbacks(mUpdateEngineIsready);
-//	    	handlerEngineIsready.postDelayed(mUpdateEngineIsready, 100);
+	    	writeLineToProcess("isready");
+	    	handlerEngineIsreadyCnt = 0;
+	    	handlerEngineIsready.removeCallbacks(mUpdateEngineIsready);
+	    	handlerEngineIsready.postDelayed(mUpdateEngineIsready, 100);
     	}
     	else
     	{
