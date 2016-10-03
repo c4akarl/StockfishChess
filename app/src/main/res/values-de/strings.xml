@@ -8,7 +8,7 @@
     <string name="sendEmail">E-Mail senden</string>
     
     <string name="about">
-    	\"Stockfish Chess\" ist eine Android Portierung der bekannten \"Stockfish 7\" Schachmaschine.
+    	\"Stockfish Chess\" ist eine Android Portierung der bekannten \"Stockfish\" Schachmaschine.
     	\n\nUm gegen diese Maschine spielen zu können benötigt man eine grafische Oberfläche. 
 		\n\nLade bitte die Anwendung \"Chess for All\" vom \"Google Play Store\" herunter oder drücke die \"GUI\"-Taste.  
     </string>
@@ -16,7 +16,7 @@
     <string name="menu_title">Informationen</string>
     <string name="menu_about">Über das Programm</string>
     <string name="menu_about_text">
-     	\"Stockfish 7\" wird von Tord Romstad, Marco Costalba und Joona Kiiski entwickelt
+     	\"Stockfish\" wird von Tord Romstad, Marco Costalba und Joona Kiiski entwickelt
      	\n\nÜbersetzungen:
 		\nFranzösisch - Éric Gallula
 		\nSpanisch - Sergio Revinelli, Sergio Ballesteros

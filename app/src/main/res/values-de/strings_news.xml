@@ -3,7 +3,10 @@
 	<string name="whatsNew">Was ist neu</string>
 	<string name="whatsNew_text">
 	    <![CDATA[
-	    *** v1.17 ***
+	    *** v1.18 ***
+	    \nStockfish auf Version 8 aktualisiert.
+	    \nAktualisiert auf Android SDK Version 23.
+	    \n\n*** v1.17 ***
 	    \nBeseitigt: Schnittstellen-Fehler
 	    \n\n*** v1.16 ***
 	    \nStockfish auf Version 7 aktualisiert

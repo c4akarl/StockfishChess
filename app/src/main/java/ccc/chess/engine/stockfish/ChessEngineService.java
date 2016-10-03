@@ -338,7 +338,8 @@ public class ChessEngineService extends Service
 	int versionCode = 0;				// application versioon number
 	String assetsEngineProcess = "";
 	final String ASSET_STOCKFISH_CPU_OLD = "stockfish-6-ja";
-	final String ASSET_STOCKFISH_CPU_STANDARD = "stockfish_7_0";
+//	final String ASSET_STOCKFISH_CPU_STANDARD = "stockfish_7_0";
+	final String ASSET_STOCKFISH_CPU_STANDARD = "stockfish-8-armeabi-v7a";
 //	final String ASSET_STOCKFISH_CPU_STANDARD = "stockfish5-armv7";
 //	final String ASSET_STOCKFISH_CPU_X86 = "stockfish_x86";
 	final String ASSET_STOCKFISH_CPU_X86 = "stockfish_7_0_x86";

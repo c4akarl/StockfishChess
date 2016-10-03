@@ -2,7 +2,10 @@
 <resources>
   <string name="whatsNew">Что нового?</string>
   <string name="whatsNew_text"><![CDATA[
-	    *** v1.17 ***
+	    *** v1.18 ***
+	    \nОбновлена ​​до версии Stockfish 8.
+	    \nОбновлен Android SDK версии 23.
+	    \n\n*** v1.17 ***
 	    \nИсправлено: Ошибка интерфейса
 	    \n\n*** v1.16 ***
 	    \nОбновлена ​​до версии Stockfish 7
