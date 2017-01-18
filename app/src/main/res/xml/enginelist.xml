@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enginelist>
+
+    <engine
+        name="Stockfish 10 Test"
+        filename="libstockfish.so"
+        target="armeabi|armeabi-v7a|arm64-v8a|x86|x86_64|mips|mips64" />
+
+    <engine
+        name="asmFish 9 Test"
+        filename="asmFishL_9_popcnt.so"
+        target="x86_64" />
+
+</enginelist>
