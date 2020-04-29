@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/StockfishChess.iml" filepath="$PROJECT_DIR$/StockfishChess.iml" group="StockfishChess" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="StockfishChess/app" />
+      <module fileurl="file://$PROJECT_DIR$/ChessEngineSupportLibrary/chessEngineSupportLibrary.iml" filepath="$PROJECT_DIR$/ChessEngineSupportLibrary/chessEngineSupportLibrary.iml" group="StockfishChess/chessEngineSupportLibrary" />
     </modules>
   </component>
 </project>
