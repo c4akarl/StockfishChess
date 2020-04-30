@@ -1,2 +1,1 @@
 include ':chessEngineSupportLibrary'
-include ':app'
