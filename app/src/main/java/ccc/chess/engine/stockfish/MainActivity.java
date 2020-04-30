@@ -11,7 +11,8 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_layout);
 
-		Log.i(TAG, "MainActivity, onCreate()");
+		Log.i(TAG, "1 MainActivity, onCreate()");
+		Log.i(TAG, "2 MainActivity, onCreate()");
 
 //		finish();
 	}
