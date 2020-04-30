@@ -1,2 +1,2 @@
-include ':chessEngineSupportLibrary'
+//include ':chessEngineSupportLibrary'
 include ':app'

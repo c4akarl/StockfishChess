@@ -9,12 +9,19 @@ public class MainActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-//		setContentView(R.layout.main_layout);
+		setContentView(R.layout.main_layout);
 
 		Log.i(TAG, "MainActivity, onCreate()");
 
-		finish();
+//		finish();
 	}
 
+	@Override
+	protected void onDestroy()
+	{
+		super.onDestroy();
+
+		finish();
+	}
 	final String TAG = "MainActivity";
 }
