@@ -5,6 +5,34 @@
 	android:layout_height="fill_parent"
 	android:background="#000000" >
 
+	<LinearLayout
+		android:id="@+id/cb__a"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="4dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="10dp"
+		android:orientation="horizontal" >
+		<ImageView
+			android:src="@drawable/ic_launcher"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="10dp" />
+		<TextView
+			android:id="@+id/engineTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#ffffff"
+			android:textSize="36dp"
+			android:text="Stockfish Engines OEX" />
+	</LinearLayout>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="2dp"
+		android:layout_marginBottom="10dp"
+		android:background="#ffffff"/>
+
 	<WebView
 		android:id="@+id/info"
 		android:layout_width="fill_parent"

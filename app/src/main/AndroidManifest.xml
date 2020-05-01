@@ -4,11 +4,11 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="Stockfish Engine OEX"
+        android:label="Stockfish Engines OEX"
         android:theme="@android:style/Theme.Translucent.NoTitleBar" >
         <activity
             android:name="ccc.chess.engine.stockfish.MainActivity"
-            android:label="Stockfish Engine OEX" >
+            android:label="Stockfish Engines OEX" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER"/>
