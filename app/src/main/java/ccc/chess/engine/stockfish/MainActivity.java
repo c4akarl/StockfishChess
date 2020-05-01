@@ -11,7 +11,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_layout);
 		webView = findViewById(R.id.info);
-		webView.loadUrl("file:///android_res/raw/" + "engine_info");
+		webView.loadUrl(engineInfo);
 	}
 
 	@Override
@@ -23,5 +23,6 @@ public class MainActivity extends Activity {
 
 //	final String TAG = "MainActivity";
 	WebView webView;
+	final String engineInfo = "file:///android_res/raw/engine_info";
 
 }
