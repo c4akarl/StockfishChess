@@ -2,7 +2,7 @@
 <enginelist>
 
     <engine
-        name="Stockfish 10 Test"
+        name="Stockfish 10"
         filename="libstockfish.so"
         target="armeabi|armeabi-v7a|arm64-v8a|x86|x86_64|mips|mips64" />
 

@@ -9,6 +9,7 @@
         android:theme="@android:style/Theme.Translucent.NoTitleBar" >
         <activity
             android:name="ccc.chess.engine.stockfish.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Stockfish Engines OEX" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
