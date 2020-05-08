@@ -21,7 +21,6 @@ public class MainActivity extends Activity {
 		finish();
 	}
 
-//	final String TAG = "MainActivity";
 	WebView webView;
 	final String engineInfo = "file:///android_res/raw/engine_info";
 
