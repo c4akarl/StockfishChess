@@ -2,13 +2,13 @@
 <enginelist>
 
     <engine
-        name="Stockfish 10"
+        name="Stockfish 11"
         filename="libstockfish.so"
-        target="armeabi|armeabi-v7a|arm64-v8a|x86|x86_64|mips|mips64" />
+        target="armeabi-v7a|arm64-v8a|x86|x86_64" />
 
     <engine
-        name="asmFish 9 Test"
-        filename="asmFishL_9_popcnt.so"
-        target="x86_64" />
+        name="Stockfish 090420"
+        filename="libstockfishnew.so"
+        target="armeabi-v7a|arm64-v8a|x86|x86_64" />
 
 </enginelist>

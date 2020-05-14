@@ -24,7 +24,7 @@
 			android:layout_height="wrap_content"
 			android:textColor="#ffffff"
 			android:textSize="36dp"
-			android:text="Stockfish Engines OEX" />
+			android:text="Stockfish Engines" />
 	</LinearLayout>
 
 	<View
