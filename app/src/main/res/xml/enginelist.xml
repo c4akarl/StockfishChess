@@ -7,8 +7,13 @@
         target="armeabi-v7a|arm64-v8a|x86|x86_64" />
 
     <engine
-        name="Stockfish 090420"
-        filename="libstockfishnew.so"
+        name="Stockfish 20200907"
+        filename="libstockfish20200907.so"
+        target="armeabi-v7a|arm64-v8a|x86|x86_64" />
+
+    <engine
+        name="Stockfish 20200907 (nn-308d71810dff.nnue)"
+        filename="libstockfish20200907nnue.so"
         target="armeabi-v7a|arm64-v8a|x86|x86_64" />
 
 </enginelist>
