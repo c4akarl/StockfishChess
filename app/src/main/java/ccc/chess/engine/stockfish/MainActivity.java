@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.webkit.WebView;
 import android.widget.TextView;
 
+// Added: recommended chess GUIs
 public class MainActivity extends Activity {
 
 	@Override
