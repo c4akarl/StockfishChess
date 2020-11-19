@@ -9,7 +9,7 @@
     <engine
         name="Stockfish 12"
         filename="libstockfish12.so"
-        target="arm64-v8a" />
+        target="armeabi-v7a|arm64-v8a" />
 
     <engine
         name="Stockfish 20200926"
