@@ -3,7 +3,7 @@
 
     <engine
         name="Stockfish 11"
-        filename="libstockfish.so"
+        filename="libstockfish11.so"
         target="armeabi-v7a|arm64-v8a|x86|x86_64" />
 
     <engine
