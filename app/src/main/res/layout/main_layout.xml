@@ -23,7 +23,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:textColor="#ffffff"
-			android:textSize="36dp"
+			android:textSize="30sp"
 			android:text="Stockfish Engines" />
 	</LinearLayout>
 
