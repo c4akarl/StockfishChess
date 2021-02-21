@@ -8,8 +8,8 @@ android {
         applicationId "ccc.chess.engine.stockfish"
         minSdkVersion 14
         targetSdkVersion 29
-        versionCode 30
-        versionName "2.5"
+        versionCode 31
+        versionName "2.6"
     }
 
     buildTypes {

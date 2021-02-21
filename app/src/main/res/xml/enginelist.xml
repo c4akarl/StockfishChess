@@ -12,6 +12,11 @@
         target="armeabi-v7a|arm64-v8a" />
 
     <engine
+        name="Stockfish 13"
+        filename="libstockfish13.so"
+        target="armeabi-v7a|arm64-v8a" />
+
+    <engine
         name="Stockfish 20200926"
         filename="libstockfish20200926.so"
         target="armeabi-v7a|arm64-v8a|x86|x86_64" />
