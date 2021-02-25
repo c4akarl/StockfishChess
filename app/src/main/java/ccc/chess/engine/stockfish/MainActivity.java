@@ -9,12 +9,14 @@ public class MainActivity extends Activity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
+
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_layout);
 		webView = findViewById(R.id.info);
 		webView.loadUrl(engineInfo);
 		engineTitle = findViewById(R.id.engineTitle);
 		engineTitle.setText("Stockfish Engines  " + BuildConfig.VERSION_NAME);
+
 	}
 
 	@Override
