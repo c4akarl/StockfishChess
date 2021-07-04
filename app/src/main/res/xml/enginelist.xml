@@ -2,9 +2,9 @@
 <enginelist>
 
     <engine
-        name="Stockfish 12"
-        filename="libstockfish12.so"
-        target="armeabi-v7a|arm64-v8a" />
+        name="Stockfish 11"
+        filename="libstockfish11.so"
+        target="armeabi-v7a|arm64-v8a|x86|x86_64" />
 
     <engine
         name="Stockfish 13"
