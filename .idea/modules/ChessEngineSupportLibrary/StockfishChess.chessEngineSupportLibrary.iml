@@ -3,16 +3,15 @@
   <component name="FacetManager">
     <facet type="java-gradle" name="Java-Gradle">
       <configuration>
-        <option name="BUILD_FOLDER_PATH" value="$MODULE_DIR$/../../../chessEngineSupportLibrary/build" />
         <option name="BUILDABLE" value="false" />
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+  <component name="NewModuleRootManager">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../ChessEngineSupportLibrary">
-      <excludeFolder url="file://$MODULE_DIR$/../../../chessEngineSupportLibrary/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../chessEngineSupportLibrary/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../ChessEngineSupportLibrary/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../ChessEngineSupportLibrary/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
